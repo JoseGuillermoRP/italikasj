@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Vue cdn-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="js/cabecera.js"></script>
+</head>
+<body>
+    <div id="app">
+
+        <cabecera></cabecera>
+ <section class="formulario">
+     <form action="">
+         
+         <label for="nombre">Nombre:</label><input type="text" name="nombre">
+         <label for="apellido">Apellido:</label><input type="text" name="apellido">
+         <label for="dni">Dni:</label><input type="text" name="dni">
+         <label for="correo">Correo:</label><input type="text" name="correo">
+         <label for="celular">Celular:</label><input type="text" name="celular">
+         <label for="servicio">Servicio:</label><input type="text" name="servicio">
+         <button>Enviar</button>
+     </form>
+
+ </section>
+        <div id="app">
+
+            <piedepagina></piedepagina>
+        <script>
+            new Vue({
+                el:'#app'
+            })
+        </script>
+</body>
+</html>
